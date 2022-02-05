@@ -1,0 +1,23 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "a todolist with nodejs ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyen280502/todolist.git"
+  },
+  "author": "Anh Tu Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyen280502/todolist/issues"
+  },
+  "homepage": "https://github.com/nguyen280502/todolist#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
+  }
+}
