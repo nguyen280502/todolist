@@ -8,16 +8,43 @@
         background-color: green;
         color: white;
         font-size: 200%;
+
       }
       span {
         color: red;
+      }
+      .yellow {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        color: white;
+      }
+      .red {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        color: white;
       }
     </style>
   </head>
   <body>
     <h1><%= salute %></h1>
     <div class="lotto">
-      <p>Your happy number for today are <span><%= lotto %></span></p>
+      <p>
+        Your happy number for today are
+        <span>
+          <%= lotto %>
+        </span>
+      </p>
     </div>
+    <% if(zufallZahl % 2 === 0){ %>
+      <div class="yellow">Controll flow yellow</div>
+    <% } else { %>
+      <div class="red">Controll flow red</div>
+    <% } %>
+
+
   </body>
 </html>
